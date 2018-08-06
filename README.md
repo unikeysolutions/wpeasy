@@ -1,0 +1,2 @@
+# wpeasy
+Easy Peasy
