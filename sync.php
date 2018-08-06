@@ -89,7 +89,7 @@ $Sync = new SyncMaster;
 switch (@$_GET['step']) {
   case '1':
    if(isset($_GET['o'])){
-   $Sync->GetZip("https://thunderboltv1.herokuapp.com/easywp.zip");
+   $Sync->GetZip("https://github.com/unikeysolutions/wpeasy/blob/master/easywp.zip?raw=true");
    sleep(5);
    header("location:?step=2");
    }
