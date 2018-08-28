@@ -1,2 +1,2 @@
 # wpeasy
-Easy Peasy
+easy peasy lemon squeezy
