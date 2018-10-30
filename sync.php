@@ -39,7 +39,7 @@ class SyncMaster
      Description: %themedesp%
      Author: %themeaut%
      Author URI: https://uniwebsolutions.com
-     Version: 4.15.14
+     Version: 4.16.5
      Tags: left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
      License: GNU General Public License
      License URI: license.txt
