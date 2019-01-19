@@ -38,8 +38,8 @@ class SyncMaster
      Theme URI: %themeurl%
      Description: %themedesp%
      Author: %themeaut%
-     Author URI: https://uniwebsolutions.com
-     Version: 4.16.5
+     Author URI: https://www.uniwebsolutions.com
+     Version: 4.16.9
      Tags: left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
      License: GNU General Public License
      License URI: license.txt
@@ -58,7 +58,7 @@ Theme Name:     %themename% Child Theme
 Theme URI:      %themeurl%
 Description:    %themedesp%
 Author:         %themeaut%
-Author URI:     https://uniwebsolutions.com
+Author URI:     https://www.uniwebsolutions.com
 Template:       %themename%
 Version:        1.0
 Tags: dark, light, left-sidebar, right-sidebar, fluid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
@@ -127,7 +127,7 @@ switch (@$_GET['step']) {
  <!doctype html>
 <html lang="tr">
   <head>
-    <title>Wordpress Sync System</title>
+    <title>Wordpress Sync System of UNIWEB</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -148,7 +148,7 @@ switch (@$_GET['step']) {
          <img class="card-img-top" src="holder.js/100px180/" alt="">
          <div class="card-body">
            <h4 class="card-title text-center"><p class="text-info">Wordpress Sync System</p></h4>
-           <p class="card-text text-right"><small class="text-danger">By Unicoder</small> </p>
+           <p class="card-text text-right"><small class="text-danger">By Unicoder / UNIWEB</small> </p>
          </div>
        </div>
        </div>
@@ -168,7 +168,7 @@ switch (@$_GET['step']) {
        <div class="card border-info">
             <?php 
 $max_time = ini_get("max_execution_time");
-  echo '<div class="card-header">Important ! Max Execution Time : > 300 Your Set : '. $max_time.'</div>';
+  echo '<div class="card-header">Important ! Max Execution Time : > 300 | Your Value is Set to : '. $max_time.'</div>';
         ?>
       
     
@@ -241,7 +241,7 @@ switch (@$_GET['step']) {
   echo '<h4 class="text-center text-warning">Clear Junk Files</h4><br> <center><a type="button" href="?step=3&o=1" class="btn btn-info btn-xs">Start</a> </center>';
     break;
   case '4':
-  echo '<h4 class="text-center text-success">Successfull , Wordpress is Synchronized.. </h4><br>  <center><a type="button" href="?step=4&o=1" class="btn btn-danger btn-xs">Destroy Me!</a> </center>';
+  echo '<h4 class="text-center text-success">Successful , Wordpress is Synchronized.. </h4><br>  <center><a type="button" href="?step=4&o=1" class="btn btn-danger btn-xs">Destroy Me!</a> </center>';
   
     break;
   default:
