@@ -226,14 +226,18 @@ switch (@$_GET['step']) {
     </div>
     
     <input type="hidden" name="b" value="1"> 
-    <input type="hidden" name="step" value="2"> 
+
+        <input type="hidden" name="step" value="2"> 
+
    <div align="right"> <input type="submit" class="btn btn-success" value="Next">  </div> 
  
 </form>  
+
 </div> 
 <div class="col-md-2">
        
        </div>  
+          <div align="right"> <a   class="btn btn-warning btn-sm" href="?step=3" > Skip </a></div> 
 <?php
  
     break;
