@@ -1,4 +1,6 @@
-# Wordpress Synchronization System
+:shipit:   Wordpress Synchronization System  :male_detective:
+
+:point_down: Files List
 * new
   * classes
   * new.zip
