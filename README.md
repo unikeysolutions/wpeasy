@@ -1,6 +1,8 @@
 :shipit:   Wordpress Synchronization System  :male_detective:
 
 :point_down: Files List
+
+---
 * new
   * classes
   * new.zip
@@ -11,4 +13,5 @@
 * easywp.zip
 * sync.php
 
+---
  > **Note:** For Uniweb.
